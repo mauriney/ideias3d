@@ -2507,7 +2507,9 @@ nav a:hover {
 }
 
 .footer-area {
-  padding-top: 100px;
+  padding-top: 0px;
+  margin-top: 10px;
+  padding-bottom: 10px;
   background-color: #222222;
 }
 
@@ -2680,6 +2682,10 @@ p {
   }
 }
 
+.logo-img {
+    max-width: 80%;
+}
+
 .footer-bottom {
   padding-top: 80px;
 }
@@ -2690,4 +2696,132 @@ p {
 
 .footer-text a, .footer-text i {
   color: #2482ff;
+}
+
+.imgagem {
+    margin: -20px 50px -20px 10px;
+}
+.numero h3 {
+    background: -moz-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+    background: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+    background-clip: border-box;
+    background: -ms-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    color: #222222;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+.consultans-contato {
+  background-color: #f9f9ff;
+}
+
+
+.icons-phone {
+    display: inline-block;
+    float: left;
+    font-size: 36px;
+    margin-right: 30px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #ed1c24;
+}
+.icons-mail {
+    display: inline-block;
+    float: left;
+    font-size: 36px;
+    margin-right: 30px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #b90162;
+}
+.icons-midia {
+    display: inline-block;
+    float: left;
+    font-size: 36px;
+    margin-right: 30px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #3c70b4;
+}
+/*.icons-facebook {
+    display: block;
+    float: left;
+    font-size: 22px;
+    margin-right: 30px;    
+    padding-left: 70px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #f4bf00;
+}
+.icons-google {
+    display: block;
+    float: left;
+    font-size: 22px;
+    margin-right: 30px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #f7941d;
+}
+.icons-instagram {
+    display: block;
+    float: left;
+    font-size: 22px;
+    margin-right: 30px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #f26522;
+}*/
+.icons-facebook {
+    display: block;
+    float: left;
+    font-size: 18px;
+    margin-right: 20px;    
+    padding-left: 80px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2d3038;
+}
+.icons-google {
+    display: block;
+    float: left;
+    font-size: 18px;
+    margin-right: 20px;    
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2d3038;
+}
+.icons-instagram {
+    display: block;
+    float: left;
+    font-size: 18px;
+    margin-right: 20px;    
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2d3038;
+}
+.coluna-contato {
+  /*border: 2px red solid;*/
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.coluna-space {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  /*border-bottom: 1px solid #f1f1f1;*/
 }
