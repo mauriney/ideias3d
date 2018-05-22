@@ -2687,7 +2687,7 @@ p {
 }
 
 .footer-bottom {
-  padding-top: 80px;
+  /*padding-top: 80px;*/
 }
 
 .footer-text {
@@ -2824,4 +2824,20 @@ p {
   padding-bottom: 10px;
   padding-top: 20px;
   /*border-bottom: 1px solid #f1f1f1;*/
+}
+
+.rodape {
+  height: 70px;
+}
+
+.rodape p {
+  text-align: right;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .rodape p{
+    text-align: center;
+    padding-top: 10px;
+  }
 }
